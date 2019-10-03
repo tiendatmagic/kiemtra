@@ -28,10 +28,12 @@ namespace Kiemtraketthucmon
         private void Btn_ok_Click(object sender, RoutedEventArgs e)
         {
             Cho cho = new Cho();
-            cho.DongvatKeu = "Gau gau";
+            cho.DongvatKeu = "Gâu gâu";
+            cho.DongvatMauLong = "Đỏ";
             cho.Talk();
             Meo meo = new Meo();
             meo.DongvatKeu = "Meo meo";
+            meo.DongvatMauLong = "Hồng";
             meo.Talk();
         }
     }
