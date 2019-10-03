@@ -26,6 +26,12 @@ namespace Kiemtraketthucmon
         {
         }
 
+        public string MauLong
+        {
+            get { return MauLong; }
+            set { MauLong = value; }
+        }
+
         public virtual void Talk()
         {
             if (DongvatKeu.Equals("Gau gau"))
