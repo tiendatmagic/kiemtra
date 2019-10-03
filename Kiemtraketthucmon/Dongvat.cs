@@ -21,17 +21,12 @@ namespace Kiemtraketthucmon
             {
                 Keu = value;
             }
-        }
-
-        public Dongvat(string stKeu)
-        {
-            this.Keu = stKeu;
-        }
+        }        
 
         public Dongvat()
         {
         }
-
+                
         private string MauLong;
 
         public string DongvatMauLong
