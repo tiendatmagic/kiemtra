@@ -11,7 +11,7 @@ namespace Kiemtraketthucmon
     {
         private string Keu;
 
-        public string DongvatKeu
+        public string tiengkeu
         {
             get
             {
@@ -29,7 +29,7 @@ namespace Kiemtraketthucmon
                 
         private string MauLong;
 
-        public string DongvatMauLong
+        public string maulong
         {
             get
             {
@@ -43,12 +43,12 @@ namespace Kiemtraketthucmon
 
 
 
-        public virtual void Talk()
+        public virtual void Keuu()
         {
-            if (DongvatKeu.Equals("Gâu gâu") && (DongvatMauLong.Equals("Đỏ")))
-                MessageBox.Show(this.DongvatKeu+" Tôi là chó lông màu:"+ this.DongvatMauLong);
-            else if (DongvatKeu.Equals("Meo meo") && (DongvatMauLong.Equals("Hồng")))
-                MessageBox.Show(this.DongvatKeu+" Tôi là mèo lông màu:"+this.DongvatMauLong);
+            if (tiengkeu.Equals("Gâu gâu") && (maulong.Equals("Đen")))
+                MessageBox.Show(this.tiengkeu+" Tôi là chó lông màu:"+ this.maulong);
+            else if (tiengkeu.Equals("Meo meo") && (maulong.Equals("Vàng")))
+                MessageBox.Show(this.tiengkeu+" Tôi là mèo lông màu:"+this.maulong);
         }
     }
 }

@@ -8,9 +8,9 @@ namespace Kiemtraketthucmon
 {
     class Meo : Dongvat
     {
-        public override void Talk()
+        public override void Keuu()
         {
-            base.Talk();
+            base.Keuu();
         }
     }
 }

@@ -23,18 +23,22 @@ namespace Kiemtraketthucmon
         public MainWindow()
         {
             InitializeComponent();
+        }                      
+
+        private void BtnMeo_Click(object sender, RoutedEventArgs e)
+        {
+            Meo meo = new Meo();
+            meo.tiengkeu = "Meo meo";
+            meo.maulong = "Vàng";
+            meo.Keuu();
         }
-               
-        private void Btn_ok_Click(object sender, RoutedEventArgs e)
+
+        private void BtnCho_Click(object sender, RoutedEventArgs e)
         {
             Cho cho = new Cho();
-            cho.DongvatKeu = "Gâu gâu";
-            cho.DongvatMauLong = "Đỏ";
-            cho.Talk();
-            Meo meo = new Meo();
-            meo.DongvatKeu = "Meo meo";
-            meo.DongvatMauLong = "Hồng";
-            meo.Talk();
+            cho.tiengkeu = "Gâu gâu";
+            cho.maulong = "Đen";
+            cho.Keuu();
         }
     }
 }
